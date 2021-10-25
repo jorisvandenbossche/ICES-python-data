@@ -1,0 +1,25 @@
+name: ICES-python
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- ipython
+- jupyter
+- jupyterlab
+- matplotlib>3
+- ipympl
+- numpy
+- pandas>=1.0
+- plotnine
+- requests
+- seaborn
+- xlrd
+- openpyxl
+- geopandas
+- hvplot
+- bokeh
+- plotly
+- altair
+- holoviews
+- pandas-bokeh
+- datashader
