@@ -1,6 +1,6 @@
 # M13 - Upgrade your Python Skills: Data Wrangling & Plotting
 
-Course setupo for the Institute for continuing education in Science (ICES).
+Course setup for the Institute for continuing education in Science (ICES).
 
 ## Introduction
 
