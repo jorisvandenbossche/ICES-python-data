@@ -21,5 +21,4 @@ dependencies:
 - plotly
 - altair
 - holoviews
-- pandas-bokeh
 - datashader
