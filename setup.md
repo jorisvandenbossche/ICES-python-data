@@ -13,7 +13,7 @@ To get started, you should have the following three elements setup:
 
 In the following sections, more details are provided for each of these steps. When all three are done, you are ready to start coding!
 
-## 1. Install Python and the required Python packages
+## 1. (_before the course_) Install Python and the required Python packages
 
 For scientific and data analysis, we recommend to use Anaconda (or Miniconda) (<https://www.anaconda.com/download/>), which provides a Python distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Windows, Linux and Mac), instead of installing Python as such. After installation, proceed with the setup.
 
@@ -47,7 +47,7 @@ and respond with *Yes* by typing `y`. Packages should be updated after the compl
 
 As not all packages we will use in the course are provided by default as part of Anaconda, we have to add the package to Anaconda to get started. As a good practice, we will create a new _conda environment_ to work with. This environment will contain the required packages on which this course depends.
 
-The packages used in the course are enlisted in an [`environment.yml` file](https://raw.githubusercontent.com/jorisvandenbossche/ICES-python-data/main/environment.yml). The file looks as follows:
+The packages used in the course are enlisted in an [`environment.yml` file](https://raw.githubusercontent.com/jorisvandenbossche/ICES-python-data/master/environment.yml). The file looks as follows:
 
 ```
 name: ICES-python
@@ -110,7 +110,7 @@ import matplotlib
 If no message is returned, you're all set! If a message (probably an error) returned, contact the instructors. Copy paste the message returned.
 
 
-## 2. Getting the course materials
+## 2. (_first day of the course_) Getting the course materials
 
 ### Option 1: You are a git user?
 
@@ -135,7 +135,7 @@ After the download, unzip on the location you prefer within your user account (e
 
 __Note:__ Make sure you know where you stored the course material, e.g. `C:/Users/yourusername/Documents/ICES-python-data`
 
-## 3. Test your configuration
+## 3. (_first day of the course_) Test your configuration
 
 To check if your packages are properly installed, open the Conda Terminal again (see above) and navigate to the course directory:
 
@@ -160,7 +160,7 @@ python check_environment.py
 When all checkmarks are ok, you're ready to go!
 
 
-## 4. Starting Jupyter Notebook with Jupyter Lab
+## 4.(_start of day during course_)  Starting Jupyter Notebook with Jupyter Lab
 
 Each of the course modules is set up as a [Jupyter notebook](http://jupyter.org/), an interactive  environment to write and run code. It it no problem if you never used jupyter notebooks before as an introduction to notebooks is part of the course.
 
