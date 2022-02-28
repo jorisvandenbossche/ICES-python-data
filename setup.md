@@ -47,7 +47,7 @@ and respond with *Yes* by typing `y`. Packages should be updated after the compl
 
 As not all packages we will use in the course are provided by default as part of Anaconda, we have to add the package to Anaconda to get started. As a good practice, we will create a new _conda environment_ to work with. This environment will contain the required packages on which this course depends.
 
-The packages used in the course are enlisted in an [`environment.yml` file](https://raw.githubusercontent.com/jorisvandenbossche/ICES-python-data/master/environment.yml). The file looks as follows:
+The packages used in the course are enlisted in an [`environment.yml` file](https://raw.githubusercontent.com/jorisvandenbossche/ICES-python-data/main/environment.yml). The file looks as follows:
 
 ```
 name: ICES-python
